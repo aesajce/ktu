@@ -51,6 +51,7 @@
 /*
  * Special thx to all pull requests comitters
  */
+document.head.innerHTML += '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aesajce/ktu@main/dragtable.css" type="text/css"/>';
 
 (function($) {
   $.widget("akottr.dragtable", {
